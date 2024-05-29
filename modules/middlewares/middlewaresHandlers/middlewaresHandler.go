@@ -44,7 +44,7 @@ func (h *middlewaresHandler) RouterCheck() fiber.Handler {
 		return entities.NewResponse(c).Error(
 			fiber.ErrNotFound.Code,
 			"middlware-001",
-			"rotuer not found",
+			"router not found",
 		).Res()
 	}
 }
